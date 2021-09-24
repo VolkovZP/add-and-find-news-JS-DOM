@@ -1,0 +1,91 @@
+:root {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: palegoldenrod;
+  --margins30: 30px 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(247, 187, 77, 0.877);
+  height: 80px;
+}
+.headerTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.headerSearch {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.articleTitle {
+  font-size: 2rem;
+}
+.articleDate {
+  color: grey;
+}
+.articleNews {
+  padding: 10px 0;
+  text-align: left;
+}
+.articleHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  background-color: white;
+  margin: var(--margins30);
+  padding: 40px;
+}
+
+.sectionTitle {
+  margin: var(--margins30);
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.addNewsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.addNews {
+  background: white;
+  padding: 30px;
+  margin: var(--margins30);
+}
+
+textarea {
+  margin: var(--margins30);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addBtnForm {
+  position: fixed;
+  top: 84%;
+  border: none;
+  right: 5%;
+}
+
+.fas {
+  font-size: 3em;
+  color: red;
+  background: none;
+}
