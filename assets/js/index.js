@@ -80,6 +80,6 @@ function findTitleNews({ target: { value } }) {
     for (let art of article) {
         art.remove()
     }
-    data.filter(item => {
-        if (item['title'].toLowerCase().includes(value.toLowerCase())) data.filter(item => { if (item['title'].toLowerCase().includes(value.toLowerCase())) document.querySelector('section').append(createArticleElement(item)) })
+       data.filter(item => { if (item['title'].toLowerCase().includes(value.toLowerCase())) document.querySelector('section').append(createArticleElement(item)) })
 }
+
